@@ -6,9 +6,9 @@ export default function ProjectCard({url, text}) {
     <img
       alt=""
       src={url}
-      className="h-52 mb-1 w-64 rounded-[45px] object-cover"
+      className="h-28 md:h-52 mb-1 w-48 md:w-64 rounded-2xl md:rounded-[45px] object-cover"
     ></img>
-    <p className="text-xl text-white ">{text}</p>
+    <p className=" md:text-xl text-sm text-white ">{text}</p>
   </div>
   )
 }
